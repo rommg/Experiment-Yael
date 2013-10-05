@@ -1,39 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <test>
 	<maintext>לפנייך מופיעה רשימת תכונות. אנא סמני באיזו מידה כל אחת מהתכונות מאפיינת אותך </maintext>
 	<questions>
-		<question>אחראית</question>
+		<question>אינטיליגנטית</question>
 		<question>אימהית</question>
 		<question>אכפתית</question>
-		<question>אמיצה</question>
 		<question>אמפתית</question>
-		<question>אסרטיבית</question>
-		<question>אופטימית</question>
-		<question>בעלת שמחת חיים</question>
-		<question>ברת מזל</question>
-		<question>דעתנית</question>
-                                <question>הגיונית</question>
-		<question>חזקה</question>
-		<question>חייכנית</question>
+		<question>בעלת כישורים בתחום הריאלי</question>
+		<question>חכמה</question>
 		<question>חמה</question>
-		<question>יהירה</question>
-		<question>יסודית</question>
-		<question>כוחנית</question>
-		<question>מאושרת</question>
-		<question>מגושמת</question>
-		<question>מקורית</question>
-                                 <question>משעממת</question>
+		<question>לוגית</question>
+		<question>מבריקה</question>
 		<question>נעימה</question>
-		<question>פסימית</question>
-		<question>ראציונלית</question>
 		<question>רגישה</question>
-		<question>רגשנית</question>
-		<question>רכה</question>
-                                <question>שחצנית</question>
-		<question>שכלתנית</question>
-		<question>תלותית</question>
+		<question>שאפתנית</question>
 	</questions>
 </test>
-
- 
- 

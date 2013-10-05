@@ -2,37 +2,19 @@
 <test>
 	<maintext>לפניך מופיעה רשימת תכונות. אנא סמן באיזו מידה כל אחת מהתכונות מאפיינת אותך </maintext>
 	<questions>
-		<question>אחראי</question>
+		<question>אינטיליגנטי</question>
 		<question>אימהי</question>
 		<question>אכפתי</question>
-		<question>אמיץ</question>
 		<question>אמפתי</question>
-		<question>אסרטיבי</question>
-		<question>אופטימי</question>
-		<question>בעל שמחת חיים</question>
-		<question>בר מזל</question>
-		<question>דעתן</question>
-                                <question>הגיוני</question>
-		<question>חזק</question>
-		<question>חייכן</question>
+		<question>בעל כישורים בתחום הריאלי</question>
+		<question>חכם</question>
 		<question>חם</question>
-		<question>יהיר</question>
-		<question>יסודי</question>
-		<question>כוחני</question>
-		<question>מאושר</question>
-		<question>מגושם</question>
-		<question>מקורי</question>
-                                 <question>משעמם</question>
+		<question>לוגי</question>
+                                <question>מבריק</question>
 		<question>נעים</question>
-		<question>פסימי</question>
-		<question>ראציונלי</question>
 		<question>רגיש</question>
-		<question>רגשן</question>
-		<question>רך</question>
-                                <question>שחצן</question>
-		<question>שכלתני</question>
-		<question>תלותי</question>
-	</questions>
+		<question>שאפתן</question>
+		</questions>
 </test>
 
  
