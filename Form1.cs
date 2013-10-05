@@ -194,20 +194,17 @@ namespace Experiment
                     //Guy: set the number of tests according to group
                     if (oCurrentTester.Group == 1)
                     {
-                        // ((Screen4Hatrama)Screens[3]).numOfTests = 60;
                         ((Screen4Hatrama)Screens[3]).numOfTests = int.Parse(Preferences.GetPreference("hatramaNumberOfTestsGroup1and2"));
                         ((Screen4Hatrama)Screens[3]).HatramaWord = "group1array"; // array of words for group1
                     }
                     else if (oCurrentTester.Group == 2)
                     {
-                        // ((Screen4Hatrama)Screens[3]).numOfTests = 60;
                         ((Screen4Hatrama)Screens[3]).numOfTests = int.Parse(Preferences.GetPreference("hatramaNumberOfTestsGroup1and2"));
                         ((Screen4Hatrama)Screens[3]).HatramaWord = "group2array"; // array of words for group2
                     }
                     else if (oCurrentTester.Group == 3 || oCurrentTester.Group == 4)// groups 3 & 4 only 20 hatrama steps
                     {
                         ((Screen4Hatrama)Screens[3]).numOfTests = int.Parse(Preferences.GetPreference("hatramaNumberOfTestsGroup3and4"));
-                        //((Screen4Hatrama)Screens[3]).numOfTests = 20;
                     }
 
                     //else if (oCurrentTester.Group == 3) // gets only unfamiliar_name, the hatrama will choose between Person and HatramaWord but it will always be unfamiliar_name
