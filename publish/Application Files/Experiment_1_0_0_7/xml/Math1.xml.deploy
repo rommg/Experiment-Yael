@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<test>
+    <maintext>
+        חלק א
+    </maintext>
+    <questions>
+        <question>
+            <text>כמה מבין המספרים השלמים שנמצאים בין 1 ל 1000 (כולל) יכולים להיות מבוטאים כהפרש הריבועים של 2 מספרים שלמים שאינם שליליים?</text>
+            <image></image>
+            <answers>
+                <answer>200</answer>
+                <answer>640</answer>
+                <answer>750</answer>
+                <answer>1000</answer>
+                <answer>1125</answer>
+            </answers>
+        </question>
+        <question>
+            <text>שרה תכננה לכפול מספר דו ספרתי במספר תלת ספרתי אך שכחה לשים את סימן הכפל ובמקום מיקמה את המספר הדו ספרתי משמאל למספר התלת ספרתי. נוצר מספר בעל 5 ספרות ששווה למכפלת התוצאה שהייתה מתקבלת בתרגיל המקורי (הכפל) ב-9. מה סכום הספרות של המספר הדו והספרתי והמספר התלת ספרתי?</text>
+            <image></image>
+            <answers>
+                <answer>64</answer>
+                <answer>98</answer>
+                <answer>112</answer>
+                <answer>126</answer>
+                <answer>242</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                התיכונים BD  ו EC  במשולש ABC  מאונכים זה לזה.
+                BD = 8
+                CE = 12
+                שטח המשולש ABC הוא:
+            </text>
+            <image>test1-3.png</image>
+            <answers>
+                <answer>24</answer>
+                <answer>32</answer>
+                <answer>48</answer>
+                <answer>64</answer>
+                <answer>96</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                f היא פונקציה כך ש:
+                f(3)=2
+                f(4)=2
+
+                f(n+4)= f(n+3) f(n+2)   עבור כל n≥0
+                מה הערך של f(6) ?
+            </text>
+            <image></image>
+            <answers>
+                <answer>4</answer>
+                <answer>5</answer>
+                <answer>6</answer>
+                <answer>8</answer>
+                <answer>אין מספיק נתונים בשאלה על מנת לפתור אותה</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                חיפושית עומדת על ראשית הצירים והולכת מרחק של 1 יחידה על ציר ה-X  עד לנקודה (1,0). לאחר מכן מסתובבת החיפושית ◦90 נגד כיוון השעון והולכת חצי יחידה לנקודה ) 1∕2 ,1(. אם תמשיך החיפושית ללכת באופן זה- להסתובב ◦90 נגד כיוון השעון וללכת מחצית מהמרחק שהלכה בצעד הקודם, לאילו מהנקודות הבאות תהיה החיפושית הכי קרובה?
+            </text>
+            <image></image>
+            <answers>
+                <answer>2/3, 2/3</answer>
+                <answer>4∕5, 2∕5</answer>
+                <answer>4/5, 2/3</answer>
+                <answer>1/3, 2/3</answer>
+                <answer>2/5, 4/5</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                נתון עיגול שחתכו ממנו חלק (ראה ציור).
+                הרדיוס בעיגול זה=50√ ס"מ
+                AB= 6 ס"מ
+                BC= 2 ס"מ
+                זוית ABC   היא זוית ישרה.
+                מצא את ריבוע המרחק (בס"מ) בין נקדוה B  למרכז המעגל.
+            </text>
+            <image>test1-6.png</image>
+            <answers>
+                <answer>7</answer>
+                <answer>9</answer>
+                <answer>10</answer>
+                <answer>13</answer>
+                <answer>26</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                פונקציית f מוגדרת כך ש: f(x)=ax+bcx+d, a,b,c ו-d  הם מספרים אמיתיים שאינם 0.
+                נתון כי 19 f(19)=
+                97 f(97)=
+                Ff(x)=xעבור כל x חוץ מ- (d∕c-)
+                מצא את המספר הייחודי שאינו בטווח של פונקציית f
+            </text>
+            <image></image>
+            <answers>
+                <answer>36</answer>
+                <answer>42</answer>
+                <answer>58</answer>
+                <answer>64</answer>
+                <answer>72</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                מהו היקפו של המעושר בעל הזוויות הישרות בתמונה שלפניך?
+            </text>
+            <image>test1-8.png</image>
+            <answers>
+                <answer>22</answer>
+                <answer>32</answer>
+                <answer>34</answer>
+                <answer>44</answer>
+                <answer>50</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                נתון ש   T=9k:    שלם  מספר  k,  0≤k≤4000
+                בהינתו של- 94000 יש 3817 ספרות ושהספרה הראשונה (הכי שמאלית) הינה 9, עבור כמה ערכים של T יש את הספרה 9 כספרה הכי שמאלית?
+            </text>
+            <image></image>
+            <answers>
+                <answer>162</answer>
+                <answer>184</answer>
+                <answer>196</answer>
+                <answer>245</answer>
+                <answer>250</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                בציור שלפניך 2 מעגלים בעלי רדיוס 6 ו 8 ומרחק 12 יחידות בין מרכזי המעגלים. נקדות P היא נקודת מפגש המעגלים כך ש הקשתות QP ו PR שוות באורכן. מהו ריבוע הקשת QP?
+            </text>
+            <image>test1-10.png</image>
+            <answers>
+                <answer>80</answer>
+                <answer>100</answer>
+                <answer>130</answer>
+                <answer>160</answer>
+                <answer>190</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                נתון כי, w2 ….. wt      w1הם מספרים מורכבים. הישרL   במישור המורכב נקרא קו הממוצע עבור הנקודות  , w2 ….. wt      w1אם  L  מכיל את הנקודות (מספרים מורכבים)
+                , z2 ….. zt      z1כך ש:
+                עבור המספרים:
+                W1=32+170i    ,    W1=-7+64i,     W1=-9+200i,    W1=1+27i,      W1=14+43i
+                יש קו ממוצע שונה  שנקודת החיתוך שלו עם ציר y היא 3. מצא את השיפוע של קו ממוצע זה.
+            </text>
+            <image>test1-11.png</image>
+            <answers>
+                <answer>117</answer>
+                <answer>133</answer>
+                <answer>145</answer>
+                <answer>163</answer>
+                <answer>195</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                המשולש ABC  באיור שלפניך מחולק ל-6 משולשים קטנים יותר באמצעות קוים שנמתחו מקודקודי המשולש ונפגשים בנקודה פנימית במשולש. השטח של ארבעה מתוך ששת המשלושים מופיע בציור. מצא את שטחו של המשולש ABC.
+            </text>
+            <image>test1-12.png</image>
+            <answers>
+                <answer>125</answer>
+                <answer>245</answer>
+                <answer>315</answer>
+                <answer>450</answer>
+                <answer>500</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                לחקלאי יש 2 שדות מלבניים. אורכו של המלבן הגדול  ארוך פי 2 משל השדה הקטן, ורחובו רחב פי 4 משל השדה הקטן. אם שטחו של השדה הקטן הוא k, בכמה יהיה גדול שטחו של המלבן הגדול משטחו של המלבן הקטן?
+            </text>
+            <image></image>
+            <answers>
+                <answer>K2</answer>
+                <answer>K6</answer>
+                <answer>K7</answer>
+                <answer>K8</answer>
+                <answer>K12</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                המספרים בסדרה: 101, 104, 109, 116...... הינם מהצורה:  ) an= 100+n2  (n=1,2,3……
+                עבור כל n קיים ערך   d n  שהוא המספר הגדול ביותר שניתן לחלק בו את an ואת  an+1. מצא את ערכו המקסימלי של d כאשר n הוא מספר חיובי ושלם.
+            </text>
+            <image></image>
+            <answers>
+                <answer>201</answer>
+                <answer>286</answer>
+                <answer>302</answer>
+                <answer>401</answer>
+                <answer>501</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                מיכלי דלק x ו y הם מיכלים מלאים דלק. מיכל  x מכיל 600 ליטר דלק יותר ממיכל   y.  אם ישאבו מכל מיכל 100 ליטר דלק יכיל מיכל x פי 3 דלק ממיכל  y. מהו סך הדלק בשני המיכלים המלאים?
+            </text>
+            <image></image>
+            <answers>
+                <answer>1400</answer>
+                <answer>1200</answer>
+                <answer>1000</answer>
+                <answer>900</answer>
+                <answer>800</answer>
+            </answers>
+        </question>
+    </questions>
+</test>

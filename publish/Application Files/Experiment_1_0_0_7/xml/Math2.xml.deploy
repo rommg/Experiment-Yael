@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<test>
+    <maintext>
+        הגעת של החלק השני של המבחן במתמטיקה, בו עליך לענות על 15 שאלות ב-15 דקות.
+
+        נסה לענות על המבחן כמיטב יכולתך כיוון שתוצאותיך במבחן ישמשו להערכת יכולות המגדר אליו אתה שייך במתמטיקה.
+        אנו מבקשים כי למרות הקושי תעשה כמיטב יכולתך על מנת שהמבחן ישקף באופן מיטבי את ידיעתך ויכולותיך המתמטיות. בסוף המבחן תוכל לקבל את התשובות אליו.
+    </maintext>
+    <questions>
+        <question>
+            <text>
+                לגנרל ג'ורג' יש 100 מדליות זהב ו 60 מדליות ארד. לאחר שבהחליף בשוק 10 ממדליות הזהב שלו תמורת כמות מסוימת של מדליות ארד, כמות מדליות הזהב שבידו זהה לכמות מדליות הארד שבידו.
+                מה היחס בין מחירה של מדליית זהב בשוק לבין מחירה של מדליית הארד בשוק?
+            </text>
+            <image></image>
+            <answers>
+                <answer>3:2</answer>
+                <answer>2:1</answer>
+                <answer>3:1</answer>
+                <answer>4:3</answer>
+                <answer>5:2</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                לפי הנתונים שבסרטוט,
+                AB=
+            </text>
+            <image>test2-2.png</image>
+            <answers>
+                <answer>4</answer>
+                <answer>5</answer>
+                <answer>6</answer>
+                <answer>3√3</answer>
+                <answer>7</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                פי כמה גדול הביטוי 9y-3x מהביטוי 3y-x?
+            </text>
+            <image></image>
+            <answers>
+                <answer>9</answer>
+                <answer>2</answer>
+                <answer>3</answer>
+                <answer>6</answer>
+                <answer>27</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                איזה מהביטויים שונה בערכו מהאחרים?
+            </text>
+            <image></image>
+            <answers>
+                <answer isImage="true">test2-4-1.png</answer>
+                <answer isImage="true">test2-4-2.png</answer>
+                <answer isImage="true">test2-4-3.png</answer>
+                <answer isImage="true">test2-4-4.png</answer>
+                <answer isImage="true">test2-4-5.png</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                הנקודה  p  היא נקודה פנימית של מפגש קוים היוצאים מקודקודיו של המשולש לצלע שמול כל קודקוד (ראה איור). a,b,c וd מציינים את אורכי הצלעות בציור. מצא את מכפלת abc אם נתון ש a+b+c=43 ו- d=3.
+            </text>
+            <image></image>
+            <answers>
+                <answer>231</answer>
+                <answer>411</answer>
+                <answer>421</answer>
+                <answer>441</answer>
+                <answer>527</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                מה היה משך ההמתנה הקצר ביותר של אוטובוס בתחנה?
+            </text>
+            <image>test2-6.png</image>
+            <answers>
+                <answer>חצי שעה</answer>
+                <answer>שעה</answer>
+                <answer>שעה וחצי</answer>
+                <answer>שעתיים</answer>
+                <answer>שלוש שעות</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                כמה אוטובוסים יצאו מהתחנה בין השעות 10:00-14:00?
+            </text>
+            <image>test2-6.png</image>
+            <answers>
+                <answer>7</answer>
+                <answer>6</answer>
+                <answer>5</answer>
+                <answer>4</answer>
+                <answer>2</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                הקיוסק שבתחנת האוטובוס פתוח כל זמן שיש לפחות אוטובוס אחד הממתין בתחנה, ונסגר כשבתחנה אין אוטובוסים. המשך כמה שעות היה הקיוסק פתוח ביום המפורט בתרשים?
+            </text>
+            <image>test2-6.png</image>
+            <answers>
+                <answer>5</answer>
+                <answer>6.5</answer>
+                <answer>7</answer>
+                <answer>10.5</answer>
+                <answer>5.5</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                מהו מספר הנוסעים הכולל שהגיעו באוטובוס לתחנה בשעה 9:30?
+            </text>
+            <image>test2-6.png</image>
+            <answers>
+                <answer>70</answer>
+                <answer>90</answer>
+                <answer>100</answer>
+                <answer>130</answer>
+                <answer>150</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                
+            </text>
+            <image>test2-10.png</image>
+            <answers>
+                <answer>1</answer>
+                <answer>4</answer>
+                <answer isImage="true">test2-10-3.png</answer>
+                <answer isImage="true">test2-10-4.png</answer>
+                <answer isImage="true">test2-10-5.png</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                מרסל הוא בעל חנות מכולת, שמוכר בכל יום 4 חבילות קרמבו גדולות ו-2 חבילות קרמבו קטנות. בכל חבילה גדולה יש 6 קרמבואים ובחבילה קטנה יש 5 קרמבואים. כמה הקרמבואים ימכור מרסל ביומיים?
+            </text>
+            <image></image>
+            <answers>
+                <answer>68</answer>
+                <answer>32</answer>
+                <answer>38</answer>
+                <answer>33</answer>
+                <answer>64</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                נתון AD הוא גובה במשולש ABC, AE  חוצה את זוית  BAD , זוית  ABC= 40.
+                מה גודלה של זוית X?
+            </text>
+            <image>test2-12.png</image>
+            <answers>
+                <answer>10</answer>
+                <answer>25</answer>
+                <answer>30</answer>
+                <answer>50</answer>
+                <answer>30</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                הפרש הגילאים בין נטע לאוהד הוא 30 שנה. אם גילו של אוהד גדול פי 3 מגילה של נטע, מה גילה של נטע?
+            </text>
+            <image></image>
+            <answers>
+                <answer>10</answer>
+                <answer>15</answer>
+                <answer>30</answer>
+                <answer>60</answer>
+                <answer>40</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                X  אחוזים של X  שווים ל ¼ של X . אם ערכו של X  אינו 0 למה שווה X?
+            </text>
+            <image></image>
+            <answers>
+                <answer>1</answer>
+                <answer>20</answer>
+                <answer>25</answer>
+                <answer>40</answer>
+                <answer>4</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                
+            </text>
+            <image>test2-15.png</image>
+            <answers>
+                <answer>test2-15-1.png</answer>
+                <answer>4</answer>
+                <answer>test2-15-3.png</answer>
+                <answer>test2-15-4.png</answer>
+                <answer>test2-15-5.png</answer>
+            </answers>
+        </question>
+    </questions>
+</test>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preferences>
+	<preference name="hatramaTime1MS">
+        500
+    </preference>
+	<preference name="hatramaTime2MS">
+        22
+    </preference>
+	<preference name="hatramaTime3MS">
+        500
+    </preference>
+	<preference name="hatramaNumberOfTestsGroup1and2">
+        60
+    </preference>
+	<preference name="math1TimeMinuts">
+        20
+    </preference>
+	<preference name="math2TimeMinuts">
+        15
+    </preference>
+	<preference name="lexicalDecisionTime1MS">
+        500
+    </preference>
+	<preference name="lexicalDecisionTime2MS">
+        1000
+    </preference>
+	<preference name="lexicalDecisionTime3MS">
+        15000
+    </preference>
+	<preference name="lexicalDecisionNumberOfShowsPerWord">
+        8
+    </preference>
+	<preference name="fontSizeLabels">
+        12
+    </preference>
+	<preference name="fontSizeInstructions">
+        14
+    </preference>
+	<preference name="fontSizeHatrama">
+        30
+    </preference>
+	<preference name="fontSizeLexicalDesicion">
+        30
+    </preference>
+	<preference name="hatramaMisuchWidth">
+        300
+    </preference>
+	<preference name="hatramaMisuchHeight">
+        50
+    </preference>
+	<preference name="hatramaNumberOfTestsGroup3and4">20</preference>
+</preferences>

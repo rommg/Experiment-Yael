@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<texts>
+    <text name="introText">
+        אתה עומד להשתתף בניסוי, במסגרת בית הספר לחינוך ע"ש חיים וג'ואן קונסטנטינר שמטרתו לבחון את השפעתם של משתנים אישיותיים ומשתנים הקשורים למגדר על הישגים בתחום המתמטיקה.
+    </text>
+    <text name="enterIdNum">
+        4 ספרות אחרונות של ת"ז:
+    </text>
+    <text name="Next">
+        הבא
+    </text>
+    <text name="CloseApplication">
+        סגור
+    </text>
+    <text name="Arachim">
+        <!-- הערכים חייבים להיות מופרדים ע"י פסיק -->
+        ספורט, אומנות, מראה חיצוני, יצירתיות, עצמאות, חברות בקבוצה או חוג חברתי ( כגון ארגון אליו משתייכים או עדה), פוליטיקה, יחסים עם חברים או משפחה, דת ורוחניות, מוזיקה, חוש הומור.
+    </text>
+    <text name="Furniture">
+        <!-- הערכים חייבים להיות מופרדים ע"י פסיק -->
+        שולחן, כיסא, שידה, ארון, מדף, מיטה, שרפרף, ספה, כורסא
+    </text>
+    <text name="HatramaNeutral">
+        שולחן
+    </text>
+    <text name="HatramaSafeBase">
+        אהבה
+    </text>
+    <text name="Male">
+        זכר
+    </text>
+    <text name="Female">
+        נקבה
+    </text>
+    <text name="ErrorIdEmpty">
+        נא להכניס 4 ספרות
+    </text>
+    <text name="ErrorIdLength">
+        נא להכניס בדיוק 4 ספרות
+    </text>
+    <text name="ErrorArachimEmptyNote">
+        נא להכניס טקסט
+    </text>
+    <text name="ErrorArachimNumberOfSelected">
+        נא לבחור 1 או 2 ערכים
+    </text>
+    <text name="ErrorMigdar">
+        נא לבחור מגדר
+    </text>
+    <text name="ErrorChooseAnswer">
+        נא לבחור תשובה לשאלה מספר 
+    </text>
+    <text name="ErrorIdNotExist">
+        המספר שרשמת אינו קיים במערכת
+    </text>
+    <text name="TimeIsUp">
+        הזמן נגמר.
+    </text>
+</texts>

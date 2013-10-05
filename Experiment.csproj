@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF2EE8AF-BD1E-4F6B-B211-F859E018EA12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Experiment</RootNamespace>
+    <AssemblyName>Experiment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Experiment.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>60F515002960C4BD3EB3BD7C39D08BBE4765AFC7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Experiment_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter">
+      <HintPath>..\..\..\..\libraries\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultsLogger.cs" />
+    <Compile Include="Screens\Screen11Thunot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen11Thunot.Designer.cs">
+      <DependentUpon>Screen11Thunot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\ScreenHatramaEnd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\ScreenHatramaEnd.Designer.cs">
+      <DependentUpon>ScreenHatramaEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\ScreenLastQuestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\ScreenLastQuestion.Designer.cs">
+      <DependentUpon>ScreenLastQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen10End.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen10End.Designer.cs">
+      <DependentUpon>Screen10End.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen1Opening.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen1Opening.Designer.cs">
+      <DependentUpon>Screen1Opening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen2KtivaAlArachim.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen2KtivaAlArachim.Designer.cs">
+      <DependentUpon>Screen2KtivaAlArachim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen3HatramaIntro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen3HatramaIntro.Designer.cs">
+      <DependentUpon>Screen3HatramaIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen4Hatrama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen4Hatrama.Designer.cs">
+      <DependentUpon>Screen4Hatrama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen5MathIntro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen5MathIntro.Designer.cs">
+      <DependentUpon>Screen5MathIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen6Math.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen6Math.Designer.cs">
+      <DependentUpon>Screen6Math.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen7Arachim2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen7Arachim2.Designer.cs">
+      <DependentUpon>Screen7Arachim2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen8SheelonZminut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen8SheelonZminut.Designer.cs">
+      <DependentUpon>Screen8SheelonZminut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Screen9LexicalDecision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Screen9LexicalDecision.Designer.cs">
+      <DependentUpon>Screen9LexicalDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Texts.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screens\Screen11Thunot.resx">
+      <DependentUpon>Screen11Thunot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\ScreenHatramaEnd.resx">
+      <DependentUpon>ScreenHatramaEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\ScreenLastQuestion.resx">
+      <DependentUpon>ScreenLastQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen10End.resx">
+      <DependentUpon>Screen10End.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen1Opening.resx">
+      <DependentUpon>Screen1Opening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen2KtivaAlArachim.resx">
+      <DependentUpon>Screen2KtivaAlArachim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen3HatramaIntro.resx">
+      <DependentUpon>Screen3HatramaIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen4Hatrama.resx">
+      <DependentUpon>Screen4Hatrama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen5MathIntro.resx">
+      <DependentUpon>Screen5MathIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen6Math.resx">
+      <DependentUpon>Screen6Math.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen7Arachim2.resx">
+      <DependentUpon>Screen7Arachim2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen8SheelonZminut.resx">
+      <DependentUpon>Screen8SheelonZminut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Screen9LexicalDecision.resx">
+      <DependentUpon>Screen9LexicalDecision.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Experiment_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="xml\backup\Math1.xml" />
+    <Content Include="xml\backup\Preferences.xml" />
+    <Content Include="xml\Math1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Preferences.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Sheelon_female.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml\TextsGlobal.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml\backup\Texts_female.xml" />
+    <Content Include="xml\backup\Texts_male.xml" />
+    <Content Include="xml\Texts_female.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Texts_male.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\snow.gif" />
+    <None Include="Resources\tv-snow.gif" />
+    <Content Include="images\test2-10-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-10-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-10-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-15-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-15-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-15-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-15-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-4-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-4-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-4-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-4-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-4-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test2-6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="results\results.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Math2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test1-10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test1-11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test1-12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test1-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test1-6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\test1-8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Sheelon_male.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\testers.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="xml\testers.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
